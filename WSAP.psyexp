@@ -1,0 +1,474 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.2.3">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['No Partisipan'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'No Partisipan': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="True" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="False" valType="bool" updates="None" name="Save log file"/>
+    <Param val="False" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="nofbo" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[1, 1, 1]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="WSAP" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instruction">
+      <RoutineSettingsComponent name="Instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <KeyboardComponent name="Start" plugin="None">
+        <Param val="'m'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="Start" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="Start_Ins" plugin="None">
+        <Param val="$[-1, -1, -1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Start_Ins" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Tekan M untuk memulai." valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="fix_cross">
+      <RoutineSettingsComponent name="fix_cross" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="fix_cross" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <PolygonComponent name="Fixcross" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="$[-1, -1, -1]" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="$[-1, -1, -1]" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="Fixcross" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.03, 0.03)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+      <TextComponent name="Prime" plugin="None">
+        <Param val="$[-1, -1, -1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Prime" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$prime" valType="str" updates="set every repeat" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="stimuli">
+      <RoutineSettingsComponent name="stimuli" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="stimuli" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Stimuli" plugin="None">
+        <Param val="$[-1, -1, -1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Stimuli" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$stimulus" valType="str" updates="set every repeat" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="2" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="Space" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="Space" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="Next" plugin="None">
+        <Param val="$[-1.0000, -1.0000, -1.0000]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Next" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -0.3)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="1" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Tekan &lt;SPASI&gt; untuk melanjutkan" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="answer">
+      <RoutineSettingsComponent name="answer" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="answer" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Question" plugin="None">
+        <Param val="$[-1, -1, -1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Question" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Apakah situasi tersebut cocok dengan kata yang muncul sebelumnya?&amp;#10;&amp;#10;Tekan 1 jika YA, tekan 0 jika TIDAK." valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="Answer" plugin="None">
+        <Param val="'0','1'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="Answer" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="blank_screen">
+      <RoutineSettingsComponent name="blank_screen" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="blank_screen" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="End">
+      <RoutineSettingsComponent name="End" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="End" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="3" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="Exit" plugin="None">
+        <Param val="$[-1, -1, -1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="Exit" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Mohon tunggu, sedang menyimpan data." valType="str" updates="constant" name="text"/>
+        <Param val="height" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="Exitcode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="// Disable downloading results to browser&amp;#10;psychoJS._saveResults = 0;&amp;#10;&amp;#10;// Generate filename for results&amp;#10;let filename = psychoJS._experiment._experimentName + '_' + psychoJS._experiment._datetime + '.csv';&amp;#10;&amp;#10;// Extract data object from experiment&amp;#10;let dataObj = psychoJS._experiment._trialsData;&amp;#10;&amp;#10;// Convert data object to CSV&amp;#10;let data = [Object.keys(dataObj[0])].concat(dataObj).map(it =&gt; {&amp;#10;    return Object.values(it).toString();&amp;#10;}).join('\n');&amp;#10;&amp;#10;// Send data to OSF via DataPipe&amp;#10;console.log('Saving data...');&amp;#10;fetch('https://pipe.jspsych.org/api/data', {&amp;#10;    method: 'POST',&amp;#10;    headers: {&amp;#10;        'Content-Type': 'application/json',&amp;#10;        Accept: '*/*',&amp;#10;    },&amp;#10;    body: JSON.stringify({&amp;#10;        experimentID: 'j8SbWj3G2vW7', // UPDATE WITH YOUR DATAPIPE EXPERIMENT ID&amp;#10;        filename: filename,&amp;#10;        data: data,&amp;#10;    }),&amp;#10;})&amp;#10;.then(response =&gt; response.json())&amp;#10;.then(result =&gt; {&amp;#10;    // Log response and force experiment end&amp;#10;    console.log(result);&amp;#10;    quitPsychoJS();&amp;#10;})&amp;#10;.catch(err =&gt; {&amp;#10;    // Handle network or server errors&amp;#10;    console.error('Failed to save data:', err);&amp;#10;});" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="Exitcode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'prime': 'Digosipi', 'stimulus': 'Saat saya masuk ruangan, beberapa orang berhenti berbicara.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Kebetulan', 'stimulus': 'Saat saya masuk ruangan, beberapa orang berhenti berbicara.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Diabaikan', 'stimulus': 'Pesan saya belum dibalas.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Sibuk', 'stimulus': 'Pesan saya belum dibalas.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Mengejek', 'stimulus': 'Seseorang tertawa setelah saya berbicara.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Terhibur', 'stimulus': 'Seseorang tertawa setelah saya berbicara.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Ditolak', 'stimulus': 'Pendapat saya tidak langsung ditanggapi dalam rapat.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Dipertimbangkan', 'stimulus': 'Pendapat saya tidak langsung ditanggapi dalam rapat.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Kesal', 'stimulus': 'Teman saya menjawab dengan singkat.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Buru-Buru', 'stimulus': 'Teman saya menjawab dengan singkat.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Tidak Suka', 'stimulus': 'Seseorang melihat saya lalu mengalihkan pandangan.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Canggung', 'stimulus': 'Seseorang melihat saya lalu mengalihkan pandangan.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Dimarahi', 'stimulus': 'Nama saya dipanggil oleh atasan.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Dibutuhkan', 'stimulus': 'Nama saya dipanggil oleh atasan.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Dikucilkan', 'stimulus': 'Saya tidak diajak dalam percakapan.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Tidak Sengaja', 'stimulus': 'Saya tidak diajak dalam percakapan.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Menggunjing', 'stimulus': 'Orang lain berbisik saat saya lewat.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Rahasia', 'stimulus': 'Orang lain berbisik saat saya lewat.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Bosan', 'stimulus': 'Teman mengakhiri percakapan lebih cepat.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Buru-Buru', 'stimulus': 'Teman mengakhiri percakapan lebih cepat.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Menghakimi', 'stimulus': 'Saya melihat orang saling bertukar pandang saat saya bicara.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Terkesan', 'stimulus': 'Saya melihat orang saling bertukar pandang saat saya bicara.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Diabaikan', 'stimulus': 'Pesan saya dibaca tanpa balasan.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Tertunda', 'stimulus': 'Pesan saya dibaca tanpa balasan.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Kritik', 'stimulus': 'Seseorang mengoreksi ucapan saya.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Membantu', 'stimulus': 'Seseorang mengoreksi ucapan saya.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Salah', 'stimulus': 'Suasana hening setelah saya berbicara.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Mencerna', 'stimulus': 'Suasana hening setelah saya berbicara.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Aneh', 'stimulus': 'Seseorang bertanya apakah saya baik-baik saja.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Peduli', 'stimulus': 'Seseorang bertanya apakah saya baik-baik saja.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Dilupakan', 'stimulus': 'Saya tidak disebut dalam rencana bersama.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Terlewat', 'stimulus': 'Saya tidak disebut dalam rencana bersama.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Jengkel', 'stimulus': 'Orang itu menghela napas sebelum menjawab.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Lelah', 'stimulus': 'Orang itu menghela napas sebelum menjawab.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Tidak Penting', 'stimulus': 'Komentar saya tidak mendapat respons di grup.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Belum Terlihat', 'stimulus': 'Komentar saya tidak mendapat respons di grup.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Menyindir', 'stimulus': 'Seseorang tersenyum singkat lalu diam.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Sopan', 'stimulus': 'Seseorang tersenyum singkat lalu diam.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Tidak Setuju', 'stimulus': 'Teman terlihat ragu saat menjawab saya.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Berpikir', 'stimulus': 'Teman terlihat ragu saat menjawab saya.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Bohong', 'stimulus': 'Teman saya menyampaikan informasi yang tidak konsisten', 'condition': 'negative', 'context': 'social'}, {'prime': 'Lupa', 'stimulus': 'Teman saya menyampaikan informasi yang tidak konsisten', 'condition': 'positive', 'context': 'social'}, {'prime': 'Malas', 'stimulus': 'Teman saya membatalkan janji secara mendadak.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Darurat', 'stimulus': 'Teman saya membatalkan janji secara mendadak.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Bosan', 'stimulus': 'Orang lain menatap layar ponsel setelah saya berbicara.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Penting', 'stimulus': 'Orang lain menatap layar ponsel setelah saya berbicara.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Diabaikan', 'stimulus': 'Teman saya tidak membalas senyuman saya', 'condition': 'negative', 'context': 'social'}, {'prime': 'Terdistraksi', 'stimulus': 'Teman saya tidak membalas senyuman saya', 'condition': 'positive', 'context': 'social'}, {'prime': 'Dikucilkan', 'stimulus': 'Grup tiba-tiba menjadi sepi setelah saya mengirim pesan.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Kebetulan', 'stimulus': 'Grup tiba-tiba menjadi sepi setelah saya mengirim pesan.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Tersisih', 'stimulus': 'Saya duduk sendiri di sebuah acara.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Menunggu', 'stimulus': 'Saya duduk sendiri di sebuah acara.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Menghakimi', 'stimulus': 'Seseorang menatap saya cukup lama.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Memperhatikan', 'stimulus': 'Seseorang menatap saya cukup lama.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Menghindar', 'stimulus': 'Orang lain tidak langsung menjawab pertanyaan saya.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Berpikir', 'stimulus': 'Orang lain tidak langsung menjawab pertanyaan saya.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Dipermalukan', 'stimulus': 'Saya dipanggil ke depan kelas.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Dipercaya', 'stimulus': 'Saya dipanggil ke depan kelas.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Sinis', 'stimulus': 'Seseorang membalas pesan dengan emoji saja.', 'condition': 'negative', 'context': 'social'}, {'prime': 'Santai', 'stimulus': 'Seseorang membalas pesan dengan emoji saja.', 'condition': 'positive', 'context': 'social'}, {'prime': 'Korsleting', 'stimulus': 'Lampu di ruangan tiba-tiba padam.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Pemadaman', 'stimulus': 'Lampu di ruangan tiba-tiba padam.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Kerusakan', 'stimulus': 'Komputer menyala lebih lama dari biasanya.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Pembaruan', 'stimulus': 'Komputer menyala lebih lama dari biasanya.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Eror', 'stimulus': 'Ponsel berhenti merespons beberapa detik.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Memproses', 'stimulus': 'Ponsel berhenti merespons beberapa detik.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Ledakan', 'stimulus': 'Ada suara keras dari luar rumah.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Petir', 'stimulus': 'Ada suara keras dari luar rumah.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Badai', 'stimulus': 'Langit tiba-tiba berubah gelap pada siang hari.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Mendung', 'stimulus': 'Langit tiba-tiba berubah gelap pada siang hari.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Gempa', 'stimulus': 'Tanah terasa sedikit bergetar.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Getaran', 'stimulus': 'Tanah terasa sedikit bergetar.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Puting Beliung', 'stimulus': 'Angin bertiup lebih kencang dari biasanya.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Cuaca Berangin', 'stimulus': 'Angin bertiup lebih kencang dari biasanya.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Badai', 'stimulus': 'Awan terlihat bergerak sangat cepat.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Angin Kencang', 'stimulus': 'Awan terlihat bergerak sangat cepat.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Gangguan', 'stimulus': 'Suhu udara turun secara tiba-tiba.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Perubahan', 'stimulus': 'Suhu udara turun secara tiba-tiba.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Kerusakan', 'stimulus': 'Ponsel mati sendiri meskipun baterai masih ada.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Sistem', 'stimulus': 'Ponsel mati sendiri meskipun baterai masih ada.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Meledak', 'stimulus': 'Laptop terasa lebih panas dari biasanya.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Kelelahan', 'stimulus': 'Laptop terasa lebih panas dari biasanya.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Rusak', 'stimulus': 'Layar televisi berkedip beberapa kali.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Sinyal', 'stimulus': 'Layar televisi berkedip beberapa kali.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Kerusakan', 'stimulus': 'Speaker mengeluarkan suara mendesis.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Gangguan', 'stimulus': 'Speaker mengeluarkan suara mendesis.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Error', 'stimulus': 'Aplikasi berhenti saat sedang digunakan.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Pembaruan', 'stimulus': 'Aplikasi berhenti saat sedang digunakan.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Kehilangan', 'stimulus': 'Tas terasa lebih ringan dari biasanya.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Terbiasa', 'stimulus': 'Tas terasa lebih ringan dari biasanya.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Bangkai', 'stimulus': 'Bau tidak biasa tercium dari lemari.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Kelembapan', 'stimulus': 'Bau tidak biasa tercium dari lemari.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Kerusakan', 'stimulus': 'Buku yang disimpan lama tampak berubah warna.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Penuaan', 'stimulus': 'Buku yang disimpan lama tampak berubah warna.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Rusak', 'stimulus': 'Jam dinding berhenti berdetak.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Habis Baterai', 'stimulus': 'Jam dinding berhenti berdetak.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Infeksi', 'stimulus': 'Tenggorokan terasa tidak nyaman di pagi hari.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Kering', 'stimulus': 'Tenggorokan terasa tidak nyaman di pagi hari.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Penyakit', 'stimulus': 'Kepala terasa lebih berat dari biasanya.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Kelelahan', 'stimulus': 'Kepala terasa lebih berat dari biasanya.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Gangguan', 'stimulus': 'Jantung berdetak lebih cepat saat duduk diam.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Penyesuaian', 'stimulus': 'Jantung berdetak lebih cepat saat duduk diam.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Alergi', 'stimulus': 'Kulit tampak kemerahan di satu area.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Gesekan', 'stimulus': 'Kulit tampak kemerahan di satu area.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Keracunan', 'stimulus': 'Perut terasa tidak biasa setelah makan.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Penyesuaian', 'stimulus': 'Perut terasa tidak biasa setelah makan.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Gangguan Saraf', 'stimulus': 'Tangan saya terasa sedikit gemetar saat diam.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Kelelahan', 'stimulus': 'Tangan saya terasa sedikit gemetar saat diam.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Gangguan Penglihatan', 'stimulus': 'Penglihatan terasa sedikit kabur hari ini.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Kelelahan', 'stimulus': 'Penglihatan terasa sedikit kabur hari ini.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Kebakaran', 'stimulus': 'Saya mencium bau aneh di dapur.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Masakan', 'stimulus': 'Saya mencium bau aneh di dapur.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Korsleting', 'stimulus': 'Lampu di rumah berkedip beberapa kali malam ini.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Tidak Stabil', 'stimulus': 'Lampu di rumah berkedip beberapa kali malam ini.', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Penjahat', 'stimulus': 'Seseorang berjalan mengikuti saya di malam hari', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Searah', 'stimulus': 'Seseorang berjalan mengikuti saya di malam hari', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Basi', 'stimulus': 'Makanan yang saya pesan berbau aneh', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Unik', 'stimulus': 'Makanan yang saya pesan berbau aneh', 'condition': 'positive', 'context': 'Non-social'}, {'prime': 'Kebobolan', 'stimulus': 'Pintu kamar terbuka sedikit saat saya kembali.', 'condition': 'negative', 'context': 'Non-social'}, {'prime': 'Terlupa', 'stimulus': 'Pintu kamar terbuka sedikit saat saya kembali.', 'condition': 'positive', 'context': 'Non-social'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="trial.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fix_cross"/>
+    <Routine name="stimuli"/>
+    <Routine name="answer"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="End"/>
+  </Flow>
+</PsychoPy2experiment>
